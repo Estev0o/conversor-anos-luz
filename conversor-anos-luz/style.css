@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+
+body {
+  font-family: 'Scada', sans-serif;
+  text-align: center;
+  background-image: url("assets/galaxia.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  margin: 8em;
+  transition: all 0.5s ease 0s;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 1em;
+  color: white;
+  text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #fff,
+    0 0 45px #fff,
+    0 0 55px #fff,
+    0 0 70px #fff,
+    0 0 80px #fff;
+  font-size: 3rem;
+}
+
+input {
+  text-align: center;
+  margin: 25px 5px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 100px;
+}
+
+input:hover {
+  transition: all 0.5s ease 0s;
+  padding: 10px 35px;
+  box-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #fff,
+    0 0 45px #fff,
+    0 0 55px #fff,
+    0 0 70px #fff,
+    0 0 80px #fff;
+}
+
+button {
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 100px;
+  font-weight: bold;
+  background: white;
+  padding: 9px 10px;
+  border: none;
+}
+
+button:hover {
+  transition: all 0.5s ease 0s;
+  padding: 9px 30px;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #fff,
+  0 0 45px #fff,
+  0 0 55px #fff,
+  0 0 70px #fff,
+  0 0 80px #fff;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#img {
+  width: 500px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      height: 140vh;
+      max-height: 900px;
+    }
+    
+    .container {
+      margin: 3em 1em;
+    }
+    
+    .page-title {
+      font-size: 2rem;
+      
+    }
+
+    #img {
+      width: 300px;
+      margin: 10px -30px;
+    }
+}
